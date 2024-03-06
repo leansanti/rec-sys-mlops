@@ -1,0 +1,15 @@
+artifact_path: numpy_dot_product_model
+flavors:
+  python_function:
+    cloudpickle_version: 2.2.1
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.9.6
+mlflow_version: 2.8.0
+model_size_bytes: 419477
+model_uuid: 1af36009d099443cac7586b65bf394dd
+run_id: a9183607c15d4814b91fd9a996e7e7ba
+utc_time_created: '2024-03-06 17:01:34.933522'

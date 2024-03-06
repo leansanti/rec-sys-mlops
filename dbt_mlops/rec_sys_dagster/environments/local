@@ -1,0 +1,9 @@
+DAGSTER_HOME=/Users/santiagolean/repos/courses/itba/mlops/dagsterhome # donde vamos a guardar el cache del dagster webserver. Si no existe esa var de entorno se crea una carpeta temp para guardar el cache que se elimina cuando cortamos el servicio `dagster dev`
+MLFLOW_TRACKING_URI=http://localhost:8002 # si MLFlow no encuentra esta var de entorno va a crear la carpeta ml_runs en la raiz
+
+postgres_data_folder=/Users/santiagolean/repos/courses/itba/mlops/rec-sys-mlops/dbs/data/postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=mysecretpassword
+POSTGRES_HOST=localhost:5432
+MLFLOW_POSTGRES_DB=mlflow_db
+MLFLOW_ARTIFACTS_PATH=/Users/santiagolean/repos/courses/itba/mlops/rec-sys-mlops/mlflow_data

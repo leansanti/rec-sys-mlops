@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: recommmender_system_raw
+    description: "machine learning raw tables"
+    database: mlops
+    schema: source
+    tables:
+      - name: scores
+        meta:
+          dagster:
+            asset_key: ["scores"]
+      - name: peliculas
+        meta:
+          dagster:
+            asset_key: ["peliculas"]
+      - name: usuarios
+        meta:
+          dagster:
+            asset_key: ["usuarios"]
+      - name: scores_peliculas_usuarios
+        meta:
+          dagster:
+            asset_key: ["scores_peliculas_usuarios"]
